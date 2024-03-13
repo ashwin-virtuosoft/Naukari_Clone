@@ -1,0 +1,19 @@
+﻿@model JobSeeker
+@{
+    ViewData["Title"] = "Job Seeker Login Page";
+}
+
+<h1>Login Page Job Seeker</h1>
+<form method="post" action="">
+    <div class="form-group">
+        <label asp-for="Email">Enter your Email Id</label>
+        <input asp-for="Email" class="form-control" id="email" required>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Enter your password</label>
+        <input asp-for="Password" class="form-control" id="password" required>
+    </div>
+    <br><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/Register/SeekerRegister" class="btn btn-link">Register Page</a>
+</form>
