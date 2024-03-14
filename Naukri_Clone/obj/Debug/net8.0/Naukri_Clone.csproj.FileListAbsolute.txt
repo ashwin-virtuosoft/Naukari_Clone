@@ -36,3 +36,4 @@ C:\Users\ashwi\source\repos\Naukri_Clone\Naukri_Clone\bin\Debug\net8.0\runtimes\
 C:\Users\ashwi\source\repos\Naukri_Clone\Naukri_Clone\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ashwi\source\repos\Naukri_Clone\Naukri_Clone\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ashwi\source\repos\Naukri_Clone\Naukri_Clone\obj\Debug\net8.0\Naukri_Clone.csproj.CopyComplete
+C:\Users\ashwi\source\repos\Naukri_Clone\Naukri_Clone\obj\Debug\net8.0\Naukri_Clone.sourcelink.json

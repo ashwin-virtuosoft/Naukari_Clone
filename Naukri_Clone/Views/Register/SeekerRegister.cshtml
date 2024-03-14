@@ -8,6 +8,27 @@
 
 @Html.Raw(TempData["InsertMsg"])
 
+<style>
+    .form-control {
+        width: 300px;
+    }
+    .form-group{
+        width:25%;
+        display:inline-block;
+        padding:20px;
+        margin-left:40px;
+    }
+    .btn{
+        margin-left: 60px;
+    }
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:30px;
+
+    }
+
+</style>
+
 <form id="EmployerForm" method="post" asp-action="SeekerRegister">
     <div class="form-group">
         <label asp-for="FName">Enter your First Name</label>
@@ -47,6 +68,8 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
+
+   
     
     function capitalizeFirstLetter(input) {
         var words = input.value.toLowerCase().split(' ');
@@ -86,7 +109,8 @@
     }
 
     
-    $('#SeekerForm').submit(function (event) {
+    $('#SeekerForm').submit(function (event)
+    {
        
         var fnameInput = $('#fname');
         capitalizeFirstLetter(fnameInput[0]);
@@ -112,5 +136,31 @@
             
             alert('Registration successful!');
         }
-    });
+
+
+        // Adding Ajax
+
+    //     var JsonData = {
+    //         "fName": fnameInput,
+    //         "lName": lnameInput,
+    //         "email": emailInput,
+    //         "phoneNumber": phnInput,
+    //         "password": passInput
+    //     };
+
+    //     $.ajax({
+    //         type:'POST',
+          /* url: 'Url/* .Action("InsertSeeker", "Register")', */
+    //         contentType: 'application/json',
+    //         data: JSON.stringify(jsonData),
+    //         success: function (data) {
+    //             console.log(data);
+    //             alert(data);
+    //         },
+    //         error: function (xhr, status, err) {
+    //             console.log(err);
+    //             alert(err);
+    //         }
+    //     });
+     });
 </script>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naukri_Clone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a765307769ee7db3865987e16c0d27c555b914")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naukri_Clone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naukri_Clone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
